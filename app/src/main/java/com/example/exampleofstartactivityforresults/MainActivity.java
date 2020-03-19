@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static final int IntentId_RequestCode =101; //Intent Request Code
     public static final int Second_RequestCode =102;
     private  TextView resultFirstMessage;
-    private  TextView resultSecondMessage;
+   // private  TextView resultSecondMessage;
       Button mFirstActivityBT;
       Button mSecondtActivityBT;
 
@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         resultFirstMessage = (TextView)findViewById(R.id.resultfirstMessage);
-        resultSecondMessage = (TextView)findViewById(R.id.resultsecondMessage);
+      //  resultSecondMessage = (TextView)findViewById(R.id.resultsecondMessage);
         mFirstActivityBT = findViewById(R.id.btn_firstActivityBtn);
-        mSecondtActivityBT = findViewById(R.id.btn_secondActivityBtn);
+       // mSecondtActivityBT = findViewById(R.id.btn_secondActivityBtn);
         mFirstActivityBT.setOnClickListener(this);
-        mSecondtActivityBT.setOnClickListener(this);
+        //mSecondtActivityBT.setOnClickListener(this);
 
     }
 
@@ -43,13 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     resultFirstMessage.setText(messageReturn);
                 }
                 break;
-            case Second_RequestCode:
+           /* case Second_RequestCode:
                 if(resultCode == RESULT_OK)
                 {
                     String messageReturn = data.getStringExtra("secondmessage");
                     resultSecondMessage.setText(messageReturn);
                 }
-                break;
+                break;*/
 
         }
     }

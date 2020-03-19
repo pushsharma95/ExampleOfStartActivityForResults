@@ -9,7 +9,7 @@
 
 
 
-    <TextView
+   <!-- <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -18,7 +18,7 @@
         android:textColor="#000000"
         android:textSize="17sp" />
 
-    <!--  Enter your message  -->
+    &lt;!&ndash;  Enter your message  &ndash;&gt;
     <EditText
         android:id="@+id/inputMessage"
         android:layout_width="fill_parent"
@@ -53,6 +53,25 @@
             android:layout_weight="1"
             android:text="@string/submit" />
 
-    </LinearLayout>
+    </LinearLayout>-->
+
+    <TextView
+        android:id="@+id/resultsecondMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="@string/resultSecondMessage"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/btn_secondActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:ems="12"
+        android:text="@string/getResult" />
+
 
 </LinearLayout>
