@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">ExampleOfStartActivityForResults</string>
 
-    <string name="resultMessage">Result Message</string>
+    <string name="resultFirstMessage">Result First Message</string>
+    <string name="resultSecondMessage">Result Second Message</string>
     <string name="getResult">Get Result</string>
     <string name="enterMessage">Enter Your Message</string>
     <string name="seciindActivityTitle">Message enetered here will be displayed in MainActivity</string>

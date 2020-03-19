@@ -35,7 +35,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
                 String message = inputMessage.getText().toString();
                 if (message.length() != 0 && !message.equals("")) {
                     Intent intent = new Intent();
-                    intent.putExtra("message", message);//Put Message to pass over intent
+                    intent.putExtra("firstmessage", message);//Put Message to pass over intent
                     setResult(RESULT_OK, intent);//Set result OK
                     finish();//finish activity
                 } else

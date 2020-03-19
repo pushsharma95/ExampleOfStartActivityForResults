@@ -10,17 +10,34 @@
 
 
     <TextView
-        android:id="@+id/resultMessage"
+        android:id="@+id/resultfirstMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:hint="@string/resultMessage"
+        android:hint="@string/resultFirstMessage"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/resultsecondMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="@string/resultSecondMessage"
         android:textColor="#000000"
         android:textSize="17sp" />
 
     <!--  This will open second activity  -->
     <Button
-        android:id="@+id/secondActivityBtn"
+        android:id="@+id/btn_firstActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:ems="12"
+        android:text="@string/getResult" />
+
+    <Button
+        android:id="@+id/btn_secondActivityBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
